@@ -57,9 +57,6 @@
             object-position: right;
         }
     }
-
-    @media screen and (min-width: 775px) {
-    }
 }
 
 .image_right {
@@ -71,7 +68,6 @@
 }
 
 .illustration_mobile {
-    display: flex;
     margin-bottom: 48px;
     img {
         width: 100%;

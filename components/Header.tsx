@@ -9,13 +9,13 @@ interface Props {
 const Header: React.FunctionComponent<Props> = props => {
     const { header, type, dark } = props;
     return (
-        <p
+        <h6
             className={`${styles.header} ${styles[type]} ${
                 dark ? styles.dark : null
             } `}
         >
             {header}
-        </p>
+        </h6>
     );
 };
 

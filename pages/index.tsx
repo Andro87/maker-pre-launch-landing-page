@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.main_wrap}>
             <Head>
                 <title>Frontend Mentor | Maker pre-launch landing page</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/images/favicon-32x32.png" />
             </Head>
             <header className={styles.header_wrap}>
                 <Logo className={styles.logo} />
@@ -227,7 +227,7 @@ export default function Home() {
                         >
                             <input
                                 type="email"
-                                name="email"
+                                aria-label="email"
                                 className={`${styles.input} ${
                                     message ? styles.alert : null
                                 }`}
