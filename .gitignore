@@ -32,3 +32,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+*.sketch
+*.fig
+
+*.xd
+
+
+.prettierignore

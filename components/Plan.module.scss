@@ -1,0 +1,64 @@
+.plan_wrap {
+    border-radius: 8px;
+    position: relative;
+    padding: 49px 30px 30px; /**/
+    max-width: 325px;
+    margin: auto;
+    @media screen and (min-width: 500px) {
+        padding: 48px 38px;
+        max-width: 445px;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: -6%;
+}
+
+.price {
+    p {
+        font-family: "manrope";
+        font-weight: 800;
+        color: var(--White);
+        font-size: 2.6rem;
+        margin-top: 24px;
+        margin-bottom: 19px;
+        @media screen and (min-width: 500px) {
+        }
+    }
+}
+
+.darker {
+    p {
+        color: var(--Dark);
+    }
+    span {
+        font-family: "manrope";
+        font-weight: 200;
+        font-size: 1rem;
+        vertical-align: middle;
+        margin-left: 8px;
+    }
+}
+
+.info_details {
+    p {
+        margin-bottom: 12px;
+    }
+}
+
+.dark {
+    background-color: var(--LightDark);
+    @media screen and (min-width: 775px) {
+        max-height: 425px;
+        margin: auto;
+    }
+}
+
+.light {
+    background-color: var(--Celeste);
+
+    @media screen and (min-width: 775px) {
+        margin-top: initial;
+    }
+}
