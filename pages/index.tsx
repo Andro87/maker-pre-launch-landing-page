@@ -29,15 +29,12 @@ export default function Home() {
                     <div className={styles.illustration_mobile}>
                         <img
                             src="/images/illustration-hero-mobile.png"
-                            alt="illustration_mobile"
+                            alt=""
                         />
                     </div>
 
                     <div className={styles.image_left}>
-                        <img
-                            src="/images/illustration-hero-left.svg"
-                            alt="image"
-                        />
+                        <img src="/images/illustration-hero-left.svg" alt="" />
                     </div>
 
                     <div className={styles.header_info}>
@@ -55,10 +52,7 @@ export default function Home() {
                         <img src="/images/icon-scroll.svg" alt="icon_scroll" />
                     </div>
                     <div className={styles.image_right}>
-                        <img
-                            src="/images/illustration-hero-right.svg"
-                            alt="image"
-                        />
+                        <img src="/images/illustration-hero-right.svg" alt="" />
                     </div>
                 </div>
             </header>
